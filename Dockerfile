@@ -25,6 +25,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     man-db manpages manpages-dev \
     less vim nano \
     file \
+    zip unzip \
     python3 python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
